@@ -1,0 +1,778 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+@font-face 
+{
+  font-family: 'Kurale';
+  src: url('../Kurale.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+.yk2
+{
+  display: flex;
+  position: absolute;
+  justify-content: flex-end;
+  gap: 30px;
+  margin: 0 50px 0px 0;
+  background: rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  right: 0px;
+}
+.yk
+{
+  margin: 20px 0 0 0;
+  text-decoration: none;
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  letter-spacing: 1px;
+
+}
+
+header
+{
+  background-image: url(../jpg/kofeyna/fon2.jpg);
+  background-position: center;
+  background-size: cover ;
+  background-repeat: no-repeat;
+  height: 100vh;
+  position: relative;
+}
+
+.logotip
+{ 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 55%;
+  position: absolute;
+  right: 0px;
+  top: 25%;
+}
+
+.fabric
+{
+  color: white;
+  font-family: 'Kurale';
+  font-size: 80px;
+  font-weight: bold;
+}
+.op
+{
+  color: white;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+.button1
+{ 
+  font-size: 20px;
+  width: 250px;
+  height: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border: 1px solid;
+  letter-spacing: 1px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.button1:hover{background-color:wheat;}
+
+.popa
+{
+  background-image: url(../jpg/kofeyna/home2.jpg);
+  background-attachment: fixed; background-position: center;
+  background-size: cover ;
+  background-repeat: no-repeat;
+}
+.whi
+{
+  background-color: white;
+  position: relative;
+}
+.nas{
+  margin: 100px 0 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.ns
+{
+  margin: 0 0 20px 0;
+  font-weight: bold;
+  font-size: 45px;
+  font-family: 'Kurale';
+}
+.sm
+{
+  margin: 0 0 20px 0;
+}
+.fm
+{
+  text-align: center;
+  color: gray;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  margin: 0 0 50px 0;
+}
+.tip
+{
+  font-family: 'Kurale';
+  font-weight: bold;
+  margin: 10px;
+  font-size: 25px;
+}
+.sps
+{
+  display: flex;
+  justify-content: space-evenly;
+}
+.i1
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.mars
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.ss
+{
+  margin: 100px 0 20px 0;
+  font-weight: bold;
+  font-size: 45px;
+  font-family: 'Kurale';
+}
+.sup{ display: flex;}
+.i3
+{
+  width: 65%;
+}
+.i2
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.p1{
+  font-family: 'Kurale';
+  font-weight: bold;
+  margin: 10px;
+  font-size: 25px;
+  text-align: left;
+}
+.p2{
+  text-align: left;
+  color: gray;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  margin: 0 0 50px 0;
+}
+.ss2{
+  text-align: left;
+}
+.popa1{
+  background-image: url(../jpg/kofeyna/home3.jpg); background-attachment: fixed; background-position: center; background-size: cover ; background-repeat: no-repeat;}
+.coff
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+    
+}
+.f3
+{
+  background-color: white;
+  position: relative;
+  display: flex;
+ justify-content: space-evenly;
+  align-items: center;
+  
+}
+.j1
+{
+  color: rgb(207, 165, 86);
+  font-family: 'Kurale';
+  font-size: 45px;
+}
+.j2
+{
+  font-family: 'Kurale';
+  font-weight: bold;
+  font-size: 20px;
+}
+.j3
+{
+ color: gray;
+}
+.j5
+{
+  text-align: center;
+}
+.j4
+{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin: 75px;
+    
+}
+.im5
+{
+  height: 50%;
+  position: relative;
+  bottom: 20px;
+}
+.im6
+{
+  height: 50%;
+  position: relative;
+  bottom: 20px;
+  right: 350px;
+}
+.im7
+{
+  height: 50%;
+  position: relative;
+  bottom: 20px;
+  right: 700px;
+}
+.im8
+{
+  height: 50%;
+  position: relative;
+  bottom: 20px;
+  right: 1050px;
+}
+.i6
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: -384px 0 -104px 0;
+  height: 1000px;
+}
+.l1
+{
+  height: 30%;
+}
+.sss{
+  display: flex;
+  justify-content: space-evenly;
+}
+.but1{
+  background-color: wheat;
+  color: white;
+  padding: 25px 35px 20px 35px;
+  border: 1px solid wheat;
+  font-size: 17px;
+  margin-top: -298px;
+}
+.but1:hover
+{
+  background-color: black; border: 1px solid black;
+}
+.c1{
+      background-color: white;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0 50px 0;
+    flex-wrap: wrap;
+}
+.im{
+  height: 30%;
+}
+footer{
+  background-image: url(../jpg/kofeyna/home4.jpg); background-attachment: fixed; background-position: center; background-size: cover ; background-repeat: no-repeat; height: 70vh;
+}
+.c3{
+   display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.c4{
+  margin: 100px 0 0 0;
+}
+.c5{
+  display: flex;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+}
+.p3{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 10px 0 0 0;
+}
+.p4{
+  font-family: 'Kurale';
+  font-size: 24px;
+  font-weight: bold;
+  margin: 20px 0 20px 0;
+}
+.p5{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin: 10px 0 10px 0;
+  font-size: 16px;
+
+}
+.p6{
+  font-family: 'Kurale';
+  font-size: 24px;
+  font-weight: bold;
+  margin: 20px 0 20px 0;
+}
+.pl{
+  text-align: center;
+  padding: 10px 50px 10px 50px;
+  background: transparent;
+  color: white;
+  border: 1px solid white;
+}
+.p7{
+  margin: 20px 0 10px 0;
+  
+}
+.vl{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  padding: 10px;
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+  cursor: pointer;
+      position: absolute;
+    left: 1206px;
+}
+.mars1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.k4{margin: 0 0 0 0;}
+.image-switcher {
+  text-align: center;
+}
+.ppopa{
+
+    background-image: url(../jpg/kofeyna/home2.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*
+.image-switcher input[type="radio"] {
+  display: none;
+}
+
+.radio-group {
+    position: absolute;
+    z-index: 2;
+    bottom: 10px;
+    left: 920px;
+}
+
+.radio-group label {
+  display: inline-block;
+  padding: 8px 16px;
+  background: #f0f0f0;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.radio-group label:hover {
+  background: #ddd;
+}
+
+
+#img1:checked ~ .radio-group label[for="img1"],
+#img2:checked ~ .radio-group label[for="img2"],
+#img3:checked ~ .radio-group label[for="img3"] {
+  background: #007bff;
+  color: white;
+}*/
+
+.image-container {
+  position: relative;
+  width: 100%;
+  height: 400vh;
+  overflow: hidden;
+  
+ 
+}
+
+.image-slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  opacity: 0;
+  
+}
+
+.image-slide img {
+    
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    /* z-index: 1; */
+    min-width: 100%;
+    min-height: 100%;
+    transform: translate(-50%, 0%);
+    
+  
+    
+}
+/*
+
+#img1:checked ~ .image-container #slide1,
+#img2:checked ~ .image-container #slide2,
+#img3:checked ~ .image-container #slide3 {
+  opacity: 1;
+}
+*/
+.burger-icon {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 100; /* Выставим большое число, т.к иконка должна быть поверх всего контента */
+  width: 30px;
+  height: 24px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.burger-icon span {
+  display: block;
+  height: 3px;
+  width: 100%;
+  background-color: #2f5ac0;
+  border-radius: 3px;
+  /* Для повышения UI/UX воспользуемся возможностями плавной анимации превращения в крестик */
+  transition: all 0.3s ease; /* Плавность */
+  transform-origin: left center; /* Точка трансформации для крестика */
+}
+.mobile-nav {
+  position: fixed;
+  top: 0;
+  left: 0; /* Прижимаем к левому краю */
+  width: 220px;
+  height: 100vh; /* На всю высоту экрана */
+  background-color: #7e7e7e;
+  box-shadow: 2px 0 15px rgba(0, 0, 0, 0.1);
+  padding: 50px 20px 30px;; /* Отступ сверху, чтобы иконка не перекрывала текст */
+  z-index: 99; /* Меню под иконкой (100), но над контентом сайта */
+  
+  /* Прячем меню за левый край экрана на 100% его ширины */
+  transform: translateX(-100%);
+  transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1); /* Мягкая анимация выезда */
+}
+.mobile-nav {
+  position: fixed;
+  /* Прижимаем к левому краю */
+  top: 0;
+  left: 0;
+  width: 220px;
+  height: 100vh;
+  background-color: #868686;
+  padding: 50px 20px 30px;;
+  z-index: 99; /* Меню под иконкой (100), но над контентом сайта */
+
+  /* Прячем меню за левый край экрана на 100% его ширины */
+  transform: translateX(-100%);
+  transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1); /* Анимация выезда */
+}
+.nav-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.nav-list a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 600;
+  color: #000000;
+  transition: color 0.2s;
+}
+.nav-list a:hover {
+  color: #3b82f6;
+}
+
+/* Оформление выезда меню */
+/* Когда чекбокс нажат, находим .mobile-nav и возвращаем его на место */
+.burger-checkbox:checked ~ .mobile-nav {
+  transform: translateX(0);
+}
+
+/* Анимация превращения иконки в крестик */
+/* Когда меню открыто, иконка должна стать белой (или контрастной) */
+.burger-checkbox:checked ~ .burger-icon span {
+  background-color: #c94444;
+}
+
+/* Поворачиваем верхнюю полоску */
+.burger-checkbox:checked ~ .burger-icon span:nth-child(1) {
+  transform: rotate(45deg);
+}
+
+/* Прячем среднюю полоску */
+.burger-checkbox:checked ~ .burger-icon span:nth-child(2) {
+  opacity: 0;
+  transform: translateX(-10px);
+}
+
+/* Поворачиваем нижнюю полоску в обратную сторону */
+.burger-checkbox:checked ~ .burger-icon span:nth-child(3) {
+  transform: rotate(-45deg);
+}
+.burger-checkbox {
+  display: none;
+}
+.burger-menu {
+  display: none;
+}
+
+@media (min-width: 426px) and (max-width: 768px)
+{.i6
+  {
+    margin: -365px 40px -105px 39px;
+    height: 885px;
+  }
+  .sss{display:flex;
+  flex-direction: row;
+flex-wrap: wrap;
+align-items: stretch;
+justify-content: space-evenly;}
+  * {
+    margin: 0px;
+    padding: 0px;
+  }
+  .image-slide img{
+        height: 100vh;
+        width: 100vh;
+  }
+  .p1
+  {font-size: 16px;}
+.but1
+  {padding: 5px 5px 5px 5px; margin-top:-240px; font-size:22px;} 
+.radio-group
+  {left:265px;bottom: -85px}
+.fabric
+  {font-size:42px} 
+.logotip
+  {left: 195px;
+  font-size:15px;}
+.ns
+  {font-size:35px;}
+.tip
+  {font-size:20px}
+.fm
+  {font-size:12px}
+.p2
+  {font-size:12px}
+.c1
+  {height: 17vh;}
+.vl
+  {left:306px}
+.image-container  
+  {width: 100%;;}
+.popa
+  {height: 100%;}
+footer{height: 557px;}
+.j1{font-size: 25px;}
+.j2{font-size:15px;}
+.j3{font-size: 13px;}
+.p7{margin: 6px 1px 10px 0;}
+.tip{
+  font-size: 16px;
+  }
+.fm{
+  font-size: 11px;
+}
+.p3{
+  font-size: 13px;
+}
+.p4{
+  font-size: 20px;
+}
+.p5{
+  font-size: 13px;
+}
+.p6{
+  font-size: 20px;
+}
+.sps{
+  display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.whi{
+  height: auto;
+}
+.i2{
+      display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+.i3{
+  width: 86%;
+}
+.p2{
+  font-size: 12px;
+}
+.sup{
+  display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.yk2{
+  display: none;
+}
+.burger-menu{
+  display:inline-block;
+}
+}
+
+@media (min-width:1025px) and (max-width:1440px)
+{
+  .vl{left: 657px;}
+}
+@media (min-width:769px) and (max-width:1024px){
+  .logotip{
+    right: 38px;
+  }
+  .fabric{font-size: 65px;}
+  .sss{display:flex;
+  flex-direction: row;
+flex-wrap: wrap;
+align-items: stretch;
+justify-content: space-evenly;}
+.i6
+{
+    margin: -353px 43px -145px 0;
+    height: 1000px;
+  }
+  .but1{    font-size: 14px;
+    margin-top: -235px;}
+    .c1{height: 21vh;}
+    .vl{left: 456px;}
+  .sps{
+    display: flex;    
+    flex-wrap: wrap;
+  }
+  .whi{
+    height: auto;
+  }
+  .p1{
+    margin: 0px;
+    height: auto;
+    
+  }
+  .p2{
+    font-size: 12px;
+  }
+  .i2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0px 0px 0px 14px;
+  }
+}
+@media (min-width: 320px) and (max-width: 425px){
+.fabric{
+  font-size: 23px;
+  
+}
+.logotip{
+  right: 55px;
+}
+.ns{
+  margin:-88px 0px 20px 13px;
+  font-size: 22px;
+}
+.whi{
+  height: auto;
+}
+.sps{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.sup{
+      display: flex;
+    flex-direction: column;
+}
+.j4{
+  display: flex;
+  flex-direction: column;
+}
+.mars{
+display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;}
+.i6{margin: -435px 0 -81px 0;}
+.sss{display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;}
+.c1{
+     background-color: white;
+        height: 24vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+}
+.vl{
+  left: 145px;
+}
+.yk2{
+  display: none;
+}
+.fm{font-size: 12px;
+        margin: 0px 0 72px 0;}
+.ss{font-size:37px;
+ margin: -294px 0 20px 0;padding: 338px 0 0 0;}
+ .p3{
+  font-size: 12px;
+ }
+ .p5{
+  font-size: 12px;
+ }
+ .p6{
+  font-size: 20px;
+ }
+ footer{height: 586px;
+  
+ }
+ .burger-menu{
+  display:inline-block;
+ }
+}
